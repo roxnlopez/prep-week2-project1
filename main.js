@@ -38,7 +38,10 @@ document.getElementById("q2").innerHTML = feelings;
 //    create a 'message' variable with a greeting,
 //    concat the message and name variables
 //    and then display it within the HTML page.
-
+var name = "Roxann";
+var message = "Heavens to Betsy!";
+var output =  name + "," + message;
+document.getElementById("demo").innerHTML = output;
 
 
 
