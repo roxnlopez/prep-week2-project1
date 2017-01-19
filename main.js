@@ -42,6 +42,7 @@ var name = "Roxann";
 var message = "Heavens to Betsy!";
 var output =  name + "," + message;
 document.getElementById("q3").innerHTML = output;
+console.log(output);
 
 
 
