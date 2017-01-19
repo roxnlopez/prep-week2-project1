@@ -119,8 +119,16 @@ document.getElementById("doubleNum").addEventListener("click", function() {
 //    Test to see if num1 is greater than num2.
 //    If so, output to the HTML page: Yes, the value of num1 is greater than num2
 //    If not, output to the HTML page: No, the value of num1 is not greater than num2
+var num1 = 5;
+var num2 = 10;
 
+if (num1 > num2) {
+  var gradeResult = 'Yes, the value of num1 is greater than num2';
+} else {
+  var gradeResult = 'No, the value of num1 is not greater than num2';
+}
 
+document.getElementById("message").innerHTML = gradeResult;
 
 
 
