@@ -40,7 +40,7 @@ document.getElementById("q2").innerHTML = feelings;
 //    and then display it within the HTML page.
 var name = "Roxann";
 var message = "Heavens to Betsy!";
-var output =  name + " " + "," + " " + message;
+var output =  name + "," + " " + message;
 document.getElementById("q3").innerHTML = output;
 
 
@@ -54,7 +54,7 @@ document.getElementById("q3").innerHTML = output;
 //    Then label these values the best you can.
 var num1 = 7;
 var num2 = 3;
-document.getElementById("q4a").innerHTML = "The outcome is: " + num1 + " " + num2;
+document.getElementById("q4a").innerHTML = "The outcome is: " + num1 + num2;
 document.getElementById("q4b").innerHTML = "The outcome is: " + num1 - num2;
 document.getElementById("q4c").innerHTML = "The outcome is: " + num1 * num2;
 document.getElementById("q4d").innerHTML = "The outcome is: " + num1 / num2;
@@ -85,13 +85,13 @@ document.getElementById("q5").innerHTML = result;
 
 
 // 7. When a button is clicked, add content into the ID "q7".
-document.getElementById("submitBtn").addEventListener("click", function() {
+document.getElementById("callAlert").addEventListener("click", function() {
 
   var username = document.getElementById("username").value;
 
   var message = "Thank you, " + username;
 
-  document.getElementById("display").innerHTML = message;
+  document.getElementById("q7").innerHTML = message;
 
 });
 
