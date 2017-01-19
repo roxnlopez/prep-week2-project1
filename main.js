@@ -41,7 +41,7 @@ document.getElementById("q2").innerHTML = feelings;
 var name = "Roxann";
 var message = "Heavens to Betsy!";
 var output =  name + "," + message;
-document.getElementById("demo").innerHTML = output;
+document.getElementById("q3").innerHTML = output;
 
 
 
