@@ -99,7 +99,15 @@ document.getElementById("callAlert").addEventListener("click", function() {
 
 // 8. Collect a number value from the user and when a button is clicked,
 //    then double user's answer and display that value into the HTML page.
+document.getElementById("doubleNum").addEventListener("click", function() {
 
+  var doubleNum = document.getElementById("callDoubleNum").value;
+
+  var message = doubleNum;
+
+  document.getElementById("q8").innerHTML = message;
+
+});
 
 
 
