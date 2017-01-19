@@ -54,7 +54,7 @@ document.getElementById("q3").innerHTML = output;
 //    Then label these values the best you can.
 var num1 = 7;
 var num2 = 3;
-document.getElementById("q4a").innerHTML = "The outcome is: " + num1 " " + " " + num2;
+document.getElementById("q4a").innerHTML = "The outcome is: " + num1 + " " + num2;
 document.getElementById("q4b").innerHTML = "The outcome is: " + num1 - num2;
 document.getElementById("q4c").innerHTML = "The outcome is: " + num1 * num2;
 document.getElementById("q4d").innerHTML = "The outcome is: " + num1 / num2;
