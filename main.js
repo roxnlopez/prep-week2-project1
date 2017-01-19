@@ -66,10 +66,11 @@ document.getElementById("q4").innerHTML = "The outcome is: " + num1 / num2;
 //    Create a third variable that concatenates the two strings
 //    that also places the appropriate space between the strings.
 //    Display the value of the third variable within the HTML page.
+var genderA = "female";
+var genderB = "male";
+var result = genderA + "" + genderB;
 
-
-
-
+document.getElementById("q5").innerHTML = result;
 
 
 
