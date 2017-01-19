@@ -42,7 +42,6 @@ var name = "Roxann";
 var message = "Heavens to Betsy!";
 var output =  name + "," + message;
 document.getElementById("q3").innerHTML = output;
-console.log(output);
 
 
 
@@ -53,6 +52,9 @@ console.log(output);
 //    Add, subtract, multiply and divide them.
 //    Display the values of each within the HTML page.
 //    Then label these values the best you can.
+var num1 = 7;
+var num2 = 3;
+document.getElementById("q4").innerHTML = "The outcome is: " + num1 + num2; 
 
 
 
