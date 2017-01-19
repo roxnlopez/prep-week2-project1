@@ -68,7 +68,7 @@ document.getElementById("q4d").innerHTML = "The outcome is: " + num1 / num2;
 //    Display the value of the third variable within the HTML page.
 var genderA = "female";
 var genderB = "male";
-var result = genderA + "" + genderB;
+var result = genderA + " " + genderB;
 
 document.getElementById("q5").innerHTML = result;
 
@@ -85,10 +85,15 @@ document.getElementById("q5").innerHTML = result;
 
 
 // 7. When a button is clicked, add content into the ID "q7".
+document.getElementById("submitBtn").addEventListener("click", function() {
 
+  var username = document.getElementById("username").value;
 
+  var message = "Thank you, " + username;
 
+  document.getElementById("display").innerHTML = message;
 
+});
 
 
 
